@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Total Harga Pembelian Barang</title>
+</head>
+<body>
+    <h1>Pembelian Barang</h1>
+    <table border="1">
+        <tr>
+            <th>Nama Barang</th>
+            <th>Harga (Rp)</th>
+            <th>Jumlah</th>
+            <th>Total Harga (Rp)</th>
+        </tr>
+        <tr>
+            <td>Barang A</td>
+            <td id="hargaBarangA">10000</td>
+            <td id="jumlahBarangA">5</td>
+            <td id="totalHargaBarangA"></td>
+        </tr>
+        <tr>
+            <td>Barang B</td>
+            <td id="hargaBarangB">15000</td>
+            <td id="jumlahBarangB">3</td>
+            <td id="totalHargaBarangB"></td>
+        </tr>
+        <tr>
+            <td>Barang C</td>
+            <td id="hargaBarangC">20000</td>
+            <td id="jumlahBarangC">2</td>
+            <td id="totalHargaBarangC"></td>
+        </tr>
+        <tr>
+            <th colspan="3">Total</th>
+            <td id="totalHarga"></td>
+        </tr>
+    </table>
+
+    <button onclick="hitungTotalHarga()">Hitung Total Harga</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
